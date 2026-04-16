@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>React JSX Example</title>
+  <!-- React and ReactDOM from CDN -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <!-- Babel compiler for JSX -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    #root {
+      font-size: 30px;
+    } 
+  </style>
+</head>
+<body>
+  
+  <!-- Root element where React will inject UI -->
+  <div id="root"></div>
+
+  <!-- Use type="text/babel" so Babel compiles JSX -->
+  <script type="text/babel">
+    // Create a React component using JSX
+    
+    // Render it into the DOM
+    var HelloMessage = function(props) {
+        return (
+          <div className="parent">
+    <div className="child1">
+        <div className="heading-1">child1 header1</div>
+        <div className="heading-1">child1 header2</div>
+    </div>
+    <div className="child2">
+        <div className="heading-1">child2 header1</div>
+        <div className="heading-1">child2 header1</div>
+    </div>
+</div>
+        )
+    }
+
+    const rootElement = document.getElementById('root');
+    const root = ReactDOM.createRoot(rootElement);
+    root.render(<HelloMessage  />);
+  </script>
+</body>
+</html>
