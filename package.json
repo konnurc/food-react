@@ -1,0 +1,30 @@
+{
+  "name": "minicart-react",
+  "version": "1.0.0",
+  "description": "Minicart React Course",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konnurc/food-react.git"
+  },
+  "keywords": [
+    "Minicart",
+    "React",
+    "Course"
+  ],
+  "author": "Minicart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konnurc/food-react/issues"
+  },
+  "homepage": "https://github.com/konnurc/food-react#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  }
+}
