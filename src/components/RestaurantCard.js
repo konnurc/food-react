@@ -2,7 +2,7 @@ import React from 'react'
 
 const RestaurantCard = (props) => {
    const { resData } = props;
-   console.log("resData:", resData);
+ //  console.log("resData:", resData);
    const {
     cloudinaryImageId,
     name,
